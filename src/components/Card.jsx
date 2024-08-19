@@ -27,6 +27,11 @@ export default function Card({
 			<button
 				className='add-btn'
 				onClick={() => handleClick(name, isClanMember)}
+				style={{
+					color: isClanMember ? 'red' : 'black',
+					paddingRight: isClanMember ? '30px' : '',
+					paddingLeft: isClanMember ? '30px' : '',
+				}}
 			>
 				{isClanMember ? 'Remove' : 'Add to Clan'}
 			</button>

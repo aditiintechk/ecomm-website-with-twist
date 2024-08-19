@@ -1,6 +1,7 @@
 import './App.css'
 import Clan from './components/Clan.jsx'
 import Card from './components/Card.jsx'
+import { Search } from './components/Search.jsx'
 import characters from './utilities/data.js'
 import { useState } from 'react'
 
@@ -59,14 +60,32 @@ function App() {
 				<button className='show-clan-btn' onClick={handleShowClan}>
 					{!showClan ? 'Show Clan' : 'Show Characters'}
 				</button>
-				{showClan ? (
+				<Search />
+
+				{/* {showClan ? (
 					<section className='clan'>{clan}</section>
 				) : (
 					<section className='cards'>{cards}</section>
-				)}
+				)} */}
 			</main>
 		</>
 	)
 }
 
 export default App
+
+{
+	/* <main>
+<h1 className='title'>☯︎ Build Your Anime Clan ☯︎</h1>
+<Search />
+<button className='show-clan-btn' onClick={handleShowClan}>
+  {!showClan ? 'Show Clan' : 'Show Characters'}
+</button>
+{showClan ? (
+  <section className='clan'>{clan}</section>
+) : (
+  <section className='cards'>{cards}</section>
+)}
+</main>
+ */
+}

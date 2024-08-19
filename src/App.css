@@ -46,6 +46,7 @@ p {
 .card-container,
 .clan-container {
 	text-align: left;
+	border-radius: 5px;
 }
 
 .clan-container {
@@ -70,7 +71,7 @@ p {
 	border: transparent;
 	outline: transparent;
 	color: #242424;
-	background-color: #fff;
+	background-color: #cbc8c8;
 	cursor: pointer;
 	margin-top: 1em;
 }
@@ -85,4 +86,32 @@ p {
 .show-clan-btn {
 	margin-top: 0;
 	margin-bottom: 4em;
+}
+
+.ais-SearchBox {
+	margin-bottom: 1em;
+}
+
+.ais-InstantSearch {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ais-InstantSearch .ais-Hits-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	color: #242424;
+	transition: all 0.5s ease-in;
+	margin-top: 2em;
+}
+
+.ais-SearchBox {
+	width: 40%;
+	border-radius: 5px;
 }
