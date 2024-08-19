@@ -1,0 +1,152 @@
+[
+	{
+		"name": "Saitama",
+		"anime": "One Punch Man",
+		"quote": "I'm just a guy who's a hero for fun.",
+		"hair": "oops"
+	},
+	{
+		"name": "Goku",
+		"anime": "Dragon Ball",
+		"quote": "I am the hope of the universe. I am the answer to all living things that cry out for peace.",
+		"hair": "Black"
+	},
+	{
+		"name": "Ichigo Kurosaki",
+		"anime": "Bleach",
+		"quote": "If you give me wings, I will soar for you, even if this whole land sinks down to the water.",
+		"hair": "Orange"
+	},
+	{
+		"name": "Gojo Satoru",
+		"anime": "Jujutsu Kaisen",
+		"quote": "Throughout Heaven and Earth, I alone am the honored one.",
+		"hair": "White"
+	},
+	{
+		"name": "Naruto Uzumaki",
+		"anime": "Naruto",
+		"quote": "I never go back on my word. That's my nindo: my ninja way.",
+		"hair": "Blonde"
+	},
+	{
+		"name": "Sasuke Uchiha",
+		"anime": "Naruto",
+		"quote": "I have long since closed my eyes… My only goal is in the darkness.",
+		"hair": "Black"
+	},
+	{
+		"name": "Mob (Shigeo Kageyama)",
+		"anime": "Mob Psycho 100",
+		"quote": "If you want to be normal, don't stand out.",
+		"hair": "Black"
+	},
+	{
+		"name": "Tanjiro Kamado",
+		"anime": "Demon Slayer",
+		"quote": "I'll never forgive myself if I let someone else die while I'm not doing anything.",
+		"hair": "Black with Red Tips"
+	},
+	{
+		"name": "Nezuko Kamado",
+		"anime": "Demon Slayer",
+		"quote": "Mmm! Mmm! Mmm!",
+		"hair": "Black with Orange Tips"
+	},
+	{
+		"name": "Eren Yeager",
+		"anime": "Attack on Titan",
+		"quote": "I'll destroy them! Every last one of those animals that's on this earth!",
+		"hair": "Brown"
+	},
+	{
+		"name": "Mikasa Ackerman",
+		"anime": "Attack on Titan",
+		"quote": "This world is cruel. It is also very beautiful.",
+		"hair": "Black"
+	},
+	{
+		"name": "Yato (Yatogami)",
+		"anime": "Noragami",
+		"quote": "I'm Yato. I don't exist. Never did.",
+		"hair": "Dark Blue"
+	},
+	{
+		"name": "Hinata Shoyo",
+		"anime": "Haikyuu!!",
+		"quote": "I may be small, but I can jump!",
+		"hair": "Orange"
+	},
+	{
+		"name": "Oikawa Toru",
+		"anime": "Haikyuu!!",
+		"quote": "Talent is something you make bloom, instinct is something you polish.",
+		"hair": "Brown"
+	},
+	{
+		"name": "Kuroo Tetsuro",
+		"anime": "Haikyuu!!",
+		"quote": "The only ones who will remain on the court are the strong.",
+		"hair": "Black"
+	},
+	{
+		"name": "Daichi Sawamura",
+		"anime": "Haikyuu!!",
+		"quote": "You don't win alone. That's just how it is.",
+		"hair": "Brown"
+	},
+	{
+		"name": "Levi Ackerman",
+		"anime": "Attack on Titan",
+		"quote": "The only thing we're allowed to do is to believe that we won't regret the choice we made.",
+		"hair": "Black"
+	},
+	{
+		"name": "Sasha Blouse",
+		"anime": "Attack on Titan",
+		"quote": "Meat! It's meat!",
+		"hair": "Brown"
+	},
+	{
+		"name": "Kaneki Ken",
+		"anime": "Tokyo Ghoul",
+		"quote": "I'm not the protagonist of a novel or anything... I'm just a college student who likes to read, like you could find anywhere. But... if, for argument's sake, you were to write a story with me in the lead role, it would certainly be... a tragedy.",
+		"hair": "Black (Later White)"
+	},
+	{
+		"name": "Violet Evergarden",
+		"anime": "Violet Evergarden",
+		"quote": "I want to know what 'I love you' means.",
+		"hair": "Blonde"
+	},
+	{
+		"name": "Ishida Shoya",
+		"anime": "A Silent Voice",
+		"quote": "I'm going to change myself. I won't hurt anyone else.",
+		"hair": "Brown"
+	},
+	{
+		"name": "Shoko Nishimiya",
+		"anime": "A Silent Voice",
+		"quote": "Can we be friends?",
+		"hair": "Light Brown"
+	},
+	{
+		"name": "Arata Kaizaki",
+		"anime": "ReLIFE",
+		"quote": "Don't live your life making up excuses. The one making your choices is yourself!",
+		"hair": "Black"
+	},
+	{
+		"name": "Monkey D. Luffy",
+		"anime": "One Piece",
+		"quote": "I'm going to be the Pirate King!",
+		"hair": "Black"
+	},
+	{
+		"name": "Roronoa Zoro",
+		"anime": "One Piece",
+		"quote": "If I die here, then I'm a man that could only make it this far.",
+		"hair": "Green"
+	}
+]
