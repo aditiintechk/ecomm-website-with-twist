@@ -6,9 +6,17 @@ import { useState } from 'react'
 
 function App() {
 	const [data, setData] = useState(characters)
+	const [showClan, setShowClan] = useState(false)
 
-	function handleClick(name) {
-		console.log('hi', name)
+	function handleClick(name, isClanMember) {
+		console.log('hi', name, isClanMember)
+		const updatedData = data.map((character) => {
+			if (character.name === name) {
+				return { ...character, isClanMember: !isClanMember }
+			}
+			return character
+		})
+		setData(updatedData)
 	}
 
 	const cards = data.map((card, index) => {
@@ -21,29 +29,44 @@ function App() {
 				anime={card.anime}
 				hair={card.hair}
 				price={card.price}
+				isClanMember={card.isClanMember}
 				handleClick={handleClick}
 			/>
 		)
 	})
 
+	const clan = data.map((character, index) => {
+		if (character.isClanMember) {
+			return (
+				<Clan
+					key={character.name}
+					id={index}
+					image={character.image}
+					name={character.name}
+				/>
+			)
+		}
+	})
+
+	function handleShowClan() {
+		setShowClan(!showClan)
+	}
+
 	return (
 		<>
 			<main>
 				<h1 className='title'>☯︎ Build Your Anime Clan ☯︎</h1>
-				<section className='cards'>{cards}</section>
-				{/* <Clan data={data} /> */}
+				<button className='show-clan-btn' onClick={handleShowClan}>
+					{!showClan ? 'Show Clan' : 'Show Characters'}
+				</button>
+				{showClan ? (
+					<section className='clan'>{clan}</section>
+				) : (
+					<section className='cards'>{cards}</section>
+				)}
 			</main>
 		</>
 	)
 }
 
 export default App
-
-/* {
-  name: 'Goku',
-  anime: 'Dragon Ball',
-  hair: 'Black',
-  price: 12.2,
-  image: goku,
-  isClanMember: false,
-}, */

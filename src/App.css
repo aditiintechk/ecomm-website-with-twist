@@ -15,10 +15,11 @@ p {
 }
 
 .title {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
-.cards {
+.cards,
+.clan {
 	display: flex;
 	flex-wrap: wrap;
 	column-gap: 2em;
@@ -27,7 +28,8 @@ p {
 	align-items: center;
 }
 
-.card-img {
+.card-img,
+.clan-img {
 	width: 12rem;
 	border-radius: 5px;
 	margin-bottom: 1em;
@@ -37,15 +39,29 @@ p {
 	background-color: white;
 }
 
-.card-container {
+#clan-0 .clan-img {
+	background-color: white;
+}
+
+.card-container,
+.clan-container {
 	text-align: left;
+}
+
+.clan-container {
+	background-color: #dedaba;
+	padding: 1.5em;
+	border-radius: 5px;
+	color: #242424;
+	margin-top: 1em;
 }
 
 .card-container h4 span {
 	font-weight: 400;
 }
 
-.add-btn {
+.add-btn,
+.show-clan-btn {
 	font-family: inherit;
 	font-size: 1rem;
 	font-weight: 600;
@@ -60,6 +76,13 @@ p {
 }
 
 .add-btn:hover,
-.add-btn:focus {
+.add-btn:focus,
+.show-clan-btn:focus,
+.show-clan-btn:hover {
 	opacity: 0.9;
+}
+
+.show-clan-btn {
+	margin-top: 0;
+	margin-bottom: 4em;
 }

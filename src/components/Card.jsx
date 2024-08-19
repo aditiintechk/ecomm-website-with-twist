@@ -6,6 +6,7 @@ export default function Card({
 	anime,
 	hair,
 	price,
+	isClanMember,
 	handleClick,
 }) {
 	return (
@@ -23,8 +24,11 @@ export default function Card({
 			<h3>
 				<span>Price/hr:</span> ${price}
 			</h3>
-			<button className='add-btn' onClick={() => handleClick(name)}>
-				Add to Clan
+			<button
+				className='add-btn'
+				onClick={() => handleClick(name, isClanMember)}
+			>
+				{isClanMember ? 'Remove' : 'Add to Clan'}
 			</button>
 		</div>
 	)
