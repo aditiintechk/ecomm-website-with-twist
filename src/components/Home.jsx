@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Home() {
-	return <>Home component</>
+	return <div>X</div>
 }

@@ -28,7 +28,7 @@ const characters = [
 	{
 		name: 'Saitama',
 		anime: 'One Punch Man',
-		hair: 'oops',
+		hair: 'Oops..',
 		price: 8.5,
 		image: saitama,
 		isClanMember: false,
@@ -74,7 +74,7 @@ const characters = [
 		isClanMember: false,
 	},
 	{
-		name: 'Mob (Shigeo Kageyama)',
+		name: 'Mob (Shigeo)',
 		anime: 'Mob Psycho 100',
 		hair: 'Black',
 		price: 13.1,
