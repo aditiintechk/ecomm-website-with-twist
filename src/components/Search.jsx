@@ -10,9 +10,14 @@ import { Hit } from './Hit'
 	'426e3e46a593710ce7f74f434d414007'
 ) */
 
-const searchClient = algoliasearch(
+/* const searchClient = algoliasearch(
 	'OLS58B54A6',
 	'1e0911843ba71cec7d0585770610566b'
+) */
+
+const searchClient = algoliasearch(
+	'IJJ6GWM0QK',
+	'945de06bf32563bd82f3a0b02d076a00'
 )
 
 export const Search = () => {
