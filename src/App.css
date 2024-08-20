@@ -113,5 +113,16 @@ p {
 
 .ais-SearchBox {
 	width: 40%;
-	border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+	.title {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.ais-SearchBox {
+		width: 70%;
+	}
 }

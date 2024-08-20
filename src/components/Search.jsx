@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import algoliasearch from 'algoliasearch/lite'
 import 'instantsearch.css/themes/satellite.css'
 import { Hits, InstantSearch, SearchBox, Configure } from 'react-instantsearch'
